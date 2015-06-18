@@ -55,4 +55,4 @@ p <- summarise_each(grpttMeanSD, funs(mean))
 #Labels the Dataset with Descriptive variable nanes
 names(p) <- gsub("\\()", "", names(p))
 print(names(p))
-
+write.table(TidyData, file = "tidydata.txt",row.name=FALSE)
