@@ -10,9 +10,9 @@
 - 'test/y_test.txt': Test labels.
 
 ## Labelling data
-The test and Training data were mereged 
-The  column names are derived from the features file
-The rows were labelled using the activity list files
-The columns with mean and STD were subsetted
-The parenthese were removed from the column names
-The  final output tidydata was generated
+- The test and Training data were mereged 
+- The  column names are derived from the features file
+- The rows were labelled using the activity list files
+- The columns with mean and STD were subsetted
+- The parenthese were removed from the column names
+- The  final output tidydata was generated
