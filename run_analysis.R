@@ -1,5 +1,5 @@
 library(dplyr)
-# Read all required files
+# Read all required files, All files used below should be in the working directory
 Xtest <- read.table("X_test.txt")
 Xtrain <- read.table("X_train.txt")
 Ytest <- read.table("Y_test.txt")
